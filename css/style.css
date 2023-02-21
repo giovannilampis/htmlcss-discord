@@ -1,3 +1,12 @@
+/* color variables */
+:root {
+    --lightgray: rgba(246, 246, 246, 1);
+    --white: rgba(255, 255, 255, 1);
+    --header-background: rgba(49, 97, 225, 1);
+    --footer-background: rgba(35, 39, 42, 1);
+    --lilac: rgba(144, 161, 220, 1);
+}
+
 /* UTILITIES */
 
 /* reset */
@@ -5,6 +14,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 .container {
@@ -17,15 +27,6 @@
     justify-content: space-between;
 }
 
-/* color variables */
-:root {
-    --lightgray: rgba(246, 246, 246, 1);
-    --white: rgba(255, 255, 255, 1);
-    --header-background: rgba(49, 97, 225, 1);
-    --footer-background: rgba(35, 39, 42, 1);
-    --lilac: rgba(144, 161, 220, 1);
-}
-
 /* HEADER */
 header {
     background-image: url(../images/jumbo.png);
@@ -35,13 +36,16 @@ header {
 
 nav {
     padding-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .btn {
     background-color: var(--white);
     color: var(--footer-background);
     border-radius: 1.3rem;
-    padding: 0.65rem 0.75re;
+    padding: 0.65rem 0.75rem;
     text-decoration: none;
     font-size: 0.9rem;
     font-weight: bold;
@@ -75,7 +79,7 @@ header nav li a {
     margin-bottom: 0;
     margin-bottom: 3rem;
     padding-bottom: 2rem;
-    width: calc(100% / 3 * 2);
+    width: 70%;
 }
 
 .download-section > a {
@@ -93,6 +97,8 @@ header nav li a {
 }
 
 /* MAIN */
+
+/* main's sections color backgrounds */
 section.white {
     background-color: var(--white);
     padding-top: 3rem;
@@ -103,6 +109,7 @@ section.grey {
     padding-top: 3rem;
 }
 
+/* wave effect in main's sections */
 .wave svg {
     fill: var(--lightgray);
     display: block;
@@ -114,6 +121,7 @@ section.grey {
     transform: rotate(180deg);
 }
 
+/* main's section column division */
 .col-bigger {
     width: 70%;
 }
@@ -124,10 +132,12 @@ section.grey {
     text-align: left;
 }
 
+/* main's sections text */
 .text-section {
     text-align: left;
 }
 
+/* call to action's (end of section 4) layout */
 .invitation {
     background-image: url(../images/stars.svg);
     background-size: contain;
@@ -138,6 +148,7 @@ section.grey {
     text-align: center;
 }
 
+/* call to action's button layout */
 .invitation > a {
     color: var(--white);
     background-color: rgba(144, 161, 220, 1);
@@ -146,11 +157,14 @@ section.grey {
     padding: 1rem 2rem;
 }
 
+/* call to action's margins */
 .invitation h3 {
     margin: 3rem 0 2rem 0;
 }
 
 /* FOOTER */
+
+/* footer general layout */
 footer {
     background-color: var(--footer-background);
     height: 35rem;
@@ -158,18 +172,22 @@ footer {
     padding: 3rem 0 1rem 0;
 }
 
+/* lilac words in footer section */
 footer h3, footer ul > li:first-child {
     color: var(--lilac);
 }
 
+/* margin bottoms in footer's lists */
 footer li, footer h3 {
     margin-bottom: 1rem;
 }
 
+/* footer top section anchors' text color */
 .footer-top a {
     color: var(--white);
 }
 
+/* .select-language section margin bottom */
 .select-language {
     margin-bottom: 1rem;
 }
@@ -178,16 +196,19 @@ footer li, footer h3 {
     margin-bottom: 1.5rem;
 }
 
+/* footer top section layout */
 .footer-bottom {
     border-top: 0.01rem solid var(--white);
     padding-top: 1.5rem;
 }
 
+/* italian flag layout */
 .flag {
     height: 1rem;
     vertical-align: middle;
 }
 
+/* footer bottom section color laout */
 .btn-bottom {
     color: var(--white);
     background-color: var(--lilac);
