@@ -28,8 +28,7 @@
 
 /* HEADER */
 header {
-    background-color: var(--header-background);
-    height: 25rem;
+    background-image: url(../images/jumbo.png);
 }
 
 nav {
@@ -90,12 +89,10 @@ a {
 /* MAIN */
 section.white {
     background-color: var(--white);
-    height: 15rem;
 }
 
 section.grey {
     background-color: var(--lightgray);
-    height: 15rem;
 }
 
 .text-section {
