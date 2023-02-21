@@ -95,10 +95,12 @@ header nav li a {
 /* MAIN */
 section.white {
     background-color: var(--white);
+    padding-top: 3rem;
 }
 
 section.grey {
     background-color: var(--lightgray);
+    padding-top: 3rem;
 }
 
 .wave svg {
