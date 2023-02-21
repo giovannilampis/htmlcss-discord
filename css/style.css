@@ -37,7 +37,7 @@ nav {
     padding-top: 0.5rem;
 }
 
-.btn-nav {
+.btn {
     background-color: var(--white);
     color: var(--footer-background);
     border-radius: 1.3rem;
@@ -142,6 +142,10 @@ footer h3, footer ul > li:first-child {
     color: var(--lilac);
 }
 
+footer li, .column-footer > h3, .column-footer img {
+    margin-bottom: 0.5rem;
+}
+
 .footer-top {
     margin-bottom: 1.5rem;
 }
@@ -149,4 +153,14 @@ footer h3, footer ul > li:first-child {
 .footer-bottom {
     border-top: 0.01rem solid var(--white);
     padding-top: 1.5rem;
+}
+
+.flag {
+    height: 1rem;
+    vertical-align: middle;
+}
+
+.btn-bottom {
+    color: var(--white);
+    background-color: var(--lilac);
 }
