@@ -68,7 +68,11 @@ a {
 }
 
 .download-section {
-    margin: 0 auto;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
     width: calc(100% / 3 * 2);
 }
 
