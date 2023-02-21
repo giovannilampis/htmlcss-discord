@@ -106,6 +106,12 @@ section.grey {
     display: block;
 } 
 
+.wave-rotated svg {
+    fill: var(--lightgray);
+    display: block;
+    transform: rotate(180deg);
+}
+
 .col-bigger {
     width: 70%;
 }
@@ -127,6 +133,7 @@ section.grey {
     width: 35%;
     margin: auto;
     padding: 1rem 0 5rem 0;
+    text-align: center;
 }
 
 .invitation > a {
