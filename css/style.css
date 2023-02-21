@@ -114,7 +114,10 @@ section.grey {
 }
 
 .invitation {
-    width: calc(100% / 2);
+    background-image: url(../images/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 35%;
     margin: auto;
     padding: 1rem 0 5rem 0;
 }
@@ -130,7 +133,6 @@ section.grey {
 .invitation h3 {
     margin: 3rem 0 2rem 0;
 }
-
 
 /* FOOTER */
 footer {
