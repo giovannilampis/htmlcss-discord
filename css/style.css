@@ -101,16 +101,23 @@ section.grey {
     background-color: var(--lightgray);
 }
 
+.wave svg {
+    fill: var(--lightgray);
+    display: block;
+} 
+
 .col-bigger {
     width: 70%;
 }
 
 .col-smaller {
     width: 30%;
+    padding-top: 2.3rem;
+    text-align: left;
 }
 
 .text-section {
-    text-align: center;
+    text-align: left;
 }
 
 .invitation {
