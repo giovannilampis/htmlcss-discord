@@ -1,0 +1,134 @@
+/* UTILITIES */
+
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: calc(100% / 3 * 2);
+    margin: 0 auto;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* color variables */
+:root {
+    --lightgray: rgba(246, 246, 246, 1);
+    --white: rgba(255, 255, 255, 1);
+    --header-background: rgba(49, 97, 225, 1);
+    --footer-background: rgba(35, 39, 42, 1);
+    --lilac: rgba(144, 161, 220, 1);
+}
+
+/* HEADER */
+header {
+    background-color: var(--header-background);
+    height: 25rem;
+}
+
+nav {
+    padding-top: 0.5rem;
+}
+
+.btn-nav {
+    background-color: var(--white);
+    color: var(--footer-background);
+    border-radius: 1.3rem;
+    padding: 0.65rem 0.75re;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    padding-right: 1rem;
+    color: var(--white);
+}
+
+.head-text {
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 2rem;
+    color: var(--white);
+    text-align: center;
+}
+
+.head-text > p {
+    padding: 2.5rem 0 2rem 0;
+}
+
+.download-section {
+    margin: 0 auto;
+    width: calc(100% / 3 * 2);
+}
+
+.download-section > a {
+    background-color: var(--footer-background);
+    color: var(--white);
+    border-radius: 3rem;
+    padding: 1rem 1.5rem;
+}
+
+.download-section a:first-child {
+    background: var(--white);
+    color: var(--footer-background);
+    font-weight: bold;
+    margin-right: 1rem;
+}
+
+/* MAIN */
+section.white {
+    background-color: var(--white);
+    height: 15rem;
+}
+
+section.grey {
+    background-color: var(--lightgray);
+    height: 15rem;
+}
+
+.text-section {
+    text-align: center;
+}
+
+.invitation {
+    width: calc(100% / 2);
+    margin: 0 auto;
+}
+
+.invitation > a {
+    background-color: rgba(144, 161, 220, 1);
+    border-radius: 3rem;
+    padding: 1rem 2rem;
+}
+
+.invitation h3 {
+    margin: 3rem 0 2rem 0;
+}
+
+/* FOOTER */
+footer {
+    background-color: var(--footer-background);
+    height: 30rem;
+    color: var(--white);
+    padding: 3rem 0 1rem 0;
+}
+
+footer ul > li:first-child {
+    color: var(--lilac);
+}
+
+footer.container:first-child {
+    margin-bottom: 1px solid var(--lilac);
+}
