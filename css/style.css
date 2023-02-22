@@ -30,6 +30,11 @@ body {
     justify-content: space-between;
 }
 
+h1,
+h2 {
+    font-size: 2rem;
+}
+
 /* HEADER */
 header {
     background-image: url(../images/jumbo.png);
