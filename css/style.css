@@ -33,6 +33,7 @@ body {
 /* HEADER */
 header {
     background-image: url(../images/jumbo.png);
+    background-repeat: no-repeat;
     background-size: cover;
     height: 30rem;
 }
